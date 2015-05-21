@@ -14,6 +14,13 @@
 		75D4BD331B0D9C32006E2FC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD321B0D9C32006E2FC9 /* Images.xcassets */; };
 		75D4BD361B0D9C32006E2FC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD341B0D9C32006E2FC9 /* LaunchScreen.xib */; };
 		75D4BD421B0D9C32006E2FC9 /* WatkitNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4BD411B0D9C32006E2FC9 /* WatkitNotificationTests.m */; };
+		75D4BD561B0D9C3E006E2FC9 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4BD551B0D9C3E006E2FC9 /* InterfaceController.m */; };
+		75D4BD591B0D9C3E006E2FC9 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D4BD581B0D9C3E006E2FC9 /* NotificationController.m */; };
+		75D4BD5B1B0D9C3E006E2FC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD5A1B0D9C3E006E2FC9 /* Images.xcassets */; };
+		75D4BD5F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD5E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app */; };
+		75D4BD671B0D9C3E006E2FC9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD651B0D9C3E006E2FC9 /* Interface.storyboard */; };
+		75D4BD691B0D9C3E006E2FC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D4BD681B0D9C3E006E2FC9 /* Images.xcassets */; };
+		75D4BD6C1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75D4BD4F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +31,35 @@
 			remoteGlobalIDString = 75D4BD211B0D9C32006E2FC9;
 			remoteInfo = WatkitNotification;
 		};
+		75D4BD601B0D9C3E006E2FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D4BD1A1B0D9C32006E2FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D4BD5D1B0D9C3E006E2FC9;
+			remoteInfo = "WatkitNotification WatchKit App";
+		};
+		75D4BD6A1B0D9C3E006E2FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D4BD1A1B0D9C32006E2FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D4BD4E1B0D9C3E006E2FC9;
+			remoteInfo = "WatkitNotification WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75D4BD731B0D9C3E006E2FC9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75D4BD6C1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		75D4BD221B0D9C32006E2FC9 /* WatkitNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatkitNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +75,18 @@
 		75D4BD3B1B0D9C32006E2FC9 /* WatkitNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatkitNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D4BD401B0D9C32006E2FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D4BD411B0D9C32006E2FC9 /* WatkitNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatkitNotificationTests.m; sourceTree = "<group>"; };
+		75D4BD4F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatkitNotification WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D4BD521B0D9C3E006E2FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D4BD531B0D9C3E006E2FC9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		75D4BD541B0D9C3E006E2FC9 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		75D4BD551B0D9C3E006E2FC9 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		75D4BD571B0D9C3E006E2FC9 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		75D4BD581B0D9C3E006E2FC9 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		75D4BD5A1B0D9C3E006E2FC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75D4BD5E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatkitNotification WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D4BD641B0D9C3E006E2FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D4BD661B0D9C3E006E2FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		75D4BD681B0D9C3E006E2FC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75D4BD4C1B0D9C3E006E2FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +119,8 @@
 			children = (
 				75D4BD241B0D9C32006E2FC9 /* WatkitNotification */,
 				75D4BD3E1B0D9C32006E2FC9 /* WatkitNotificationTests */,
+				75D4BD501B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension */,
+				75D4BD621B0D9C3E006E2FC9 /* WatkitNotification WatchKit App */,
 				75D4BD231B0D9C32006E2FC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +130,8 @@
 			children = (
 				75D4BD221B0D9C32006E2FC9 /* WatkitNotification.app */,
 				75D4BD3B1B0D9C32006E2FC9 /* WatkitNotificationTests.xctest */,
+				75D4BD4F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex */,
+				75D4BD5E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +177,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		75D4BD501B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				75D4BD541B0D9C3E006E2FC9 /* InterfaceController.h */,
+				75D4BD551B0D9C3E006E2FC9 /* InterfaceController.m */,
+				75D4BD571B0D9C3E006E2FC9 /* NotificationController.h */,
+				75D4BD581B0D9C3E006E2FC9 /* NotificationController.m */,
+				75D4BD5A1B0D9C3E006E2FC9 /* Images.xcassets */,
+				75D4BD511B0D9C3E006E2FC9 /* Supporting Files */,
+			);
+			path = "WatkitNotification WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		75D4BD511B0D9C3E006E2FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D4BD521B0D9C3E006E2FC9 /* Info.plist */,
+				75D4BD531B0D9C3E006E2FC9 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D4BD621B0D9C3E006E2FC9 /* WatkitNotification WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				75D4BD651B0D9C3E006E2FC9 /* Interface.storyboard */,
+				75D4BD681B0D9C3E006E2FC9 /* Images.xcassets */,
+				75D4BD631B0D9C3E006E2FC9 /* Supporting Files */,
+			);
+			path = "WatkitNotification WatchKit App";
+			sourceTree = "<group>";
+		};
+		75D4BD631B0D9C3E006E2FC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D4BD641B0D9C3E006E2FC9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +227,12 @@
 				75D4BD1E1B0D9C32006E2FC9 /* Sources */,
 				75D4BD1F1B0D9C32006E2FC9 /* Frameworks */,
 				75D4BD201B0D9C32006E2FC9 /* Resources */,
+				75D4BD731B0D9C3E006E2FC9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				75D4BD6B1B0D9C3E006E2FC9 /* PBXTargetDependency */,
 			);
 			name = WatkitNotification;
 			productName = WatkitNotification;
@@ -157,6 +257,39 @@
 			productReference = 75D4BD3B1B0D9C32006E2FC9 /* WatkitNotificationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		75D4BD4E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D4BD701B0D9C3E006E2FC9 /* Build configuration list for PBXNativeTarget "WatkitNotification WatchKit Extension" */;
+			buildPhases = (
+				75D4BD4B1B0D9C3E006E2FC9 /* Sources */,
+				75D4BD4C1B0D9C3E006E2FC9 /* Frameworks */,
+				75D4BD4D1B0D9C3E006E2FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D4BD611B0D9C3E006E2FC9 /* PBXTargetDependency */,
+			);
+			name = "WatkitNotification WatchKit Extension";
+			productName = "WatkitNotification WatchKit Extension";
+			productReference = 75D4BD4F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		75D4BD5D1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D4BD6D1B0D9C3E006E2FC9 /* Build configuration list for PBXNativeTarget "WatkitNotification WatchKit App" */;
+			buildPhases = (
+				75D4BD5C1B0D9C3E006E2FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatkitNotification WatchKit App";
+			productName = "WatkitNotification WatchKit App";
+			productReference = 75D4BD5E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +305,12 @@
 					75D4BD3A1B0D9C32006E2FC9 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 75D4BD211B0D9C32006E2FC9;
+					};
+					75D4BD4E1B0D9C3E006E2FC9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					75D4BD5D1B0D9C3E006E2FC9 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -190,6 +329,8 @@
 			targets = (
 				75D4BD211B0D9C32006E2FC9 /* WatkitNotification */,
 				75D4BD3A1B0D9C32006E2FC9 /* WatkitNotificationTests */,
+				75D4BD4E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension */,
+				75D4BD5D1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +350,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D4BD4D1B0D9C3E006E2FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4BD5B1B0D9C3E006E2FC9 /* Images.xcassets in Resources */,
+				75D4BD5F1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D4BD5C1B0D9C3E006E2FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4BD671B0D9C3E006E2FC9 /* Interface.storyboard in Resources */,
+				75D4BD691B0D9C3E006E2FC9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +392,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75D4BD4B1B0D9C3E006E2FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D4BD591B0D9C3E006E2FC9 /* NotificationController.m in Sources */,
+				75D4BD561B0D9C3E006E2FC9 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +408,16 @@
 			isa = PBXTargetDependency;
 			target = 75D4BD211B0D9C32006E2FC9 /* WatkitNotification */;
 			targetProxy = 75D4BD3C1B0D9C32006E2FC9 /* PBXContainerItemProxy */;
+		};
+		75D4BD611B0D9C3E006E2FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D4BD5D1B0D9C3E006E2FC9 /* WatkitNotification WatchKit App */;
+			targetProxy = 75D4BD601B0D9C3E006E2FC9 /* PBXContainerItemProxy */;
+		};
+		75D4BD6B1B0D9C3E006E2FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D4BD4E1B0D9C3E006E2FC9 /* WatkitNotification WatchKit Extension */;
+			targetProxy = 75D4BD6A1B0D9C3E006E2FC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +436,14 @@
 				75D4BD351B0D9C32006E2FC9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		75D4BD651B0D9C3E006E2FC9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D4BD661B0D9C3E006E2FC9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +585,62 @@
 			};
 			name = Release;
 		};
+		75D4BD6E1B0D9C3E006E2FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatkitNotification_WatchKit_Extension;
+				INFOPLIST_FILE = "WatkitNotification WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		75D4BD6F1B0D9C3E006E2FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatkitNotification_WatchKit_Extension;
+				INFOPLIST_FILE = "WatkitNotification WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		75D4BD711B0D9C3E006E2FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatkitNotification WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75D4BD721B0D9C3E006E2FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatkitNotification WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +666,22 @@
 			buildConfigurations = (
 				75D4BD491B0D9C32006E2FC9 /* Debug */,
 				75D4BD4A1B0D9C32006E2FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75D4BD6D1B0D9C3E006E2FC9 /* Build configuration list for PBXNativeTarget "WatkitNotification WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D4BD6E1B0D9C3E006E2FC9 /* Debug */,
+				75D4BD6F1B0D9C3E006E2FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75D4BD701B0D9C3E006E2FC9 /* Build configuration list for PBXNativeTarget "WatkitNotification WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D4BD711B0D9C3E006E2FC9 /* Debug */,
+				75D4BD721B0D9C3E006E2FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

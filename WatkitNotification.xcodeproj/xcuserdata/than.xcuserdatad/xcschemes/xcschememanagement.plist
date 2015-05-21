@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Copy of Notification - WatkitNotification WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - WatkitNotification WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>WatkitNotification WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WatkitNotification.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>75D4BD3A1B0D9C32006E2FC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75D4BD5D1B0D9C3E006E2FC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
